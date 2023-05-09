@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import Contador from './components/Contador/Contador'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
     <>
       <NavBar />
       <ItemListContainer greeting={"Bienvenido a TiendaNT"} />
-
+      <Contador inicial={1} stock={10}/>
     </>
   )
 }
